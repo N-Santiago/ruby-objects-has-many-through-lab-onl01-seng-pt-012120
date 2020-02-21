@@ -1,3 +1,4 @@
+require 'pry'
 class Patient
 
   attr_accessor :name, :appointment, :doctor
@@ -10,6 +11,7 @@ class Patient
 
   def self.all
     @@all
+    
   end
 
   def appointments
